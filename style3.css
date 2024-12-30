@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f5f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    padding: 20px 40px;
+    z-index: 5;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    font-weight: 500;
+    color: #333;
+}
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.text {
+    flex: 1;
+    padding: 20px;
+    margin-top: 60px;
+}
+.text h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+.text p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+.image {
+    flex: 1;
+    text-align: center;
+    margin-top: 60px;
+}
+.image img {
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    font-size: 0.9rem;
+}
+.cartnumber {
+    position: absolute;
+    z-index: 1;
+    right: 1px;
+    bottom: 20px;
+    background-color: #726a71;
+    color: #fff;
+    width: 20px;
+    text-align: center;
+    border: #555 1 px solid;
+    border-radius: 40%;
+    opacity: 0.8;
+}
